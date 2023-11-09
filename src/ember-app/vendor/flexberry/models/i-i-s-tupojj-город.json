@@ -1,0 +1,75 @@
+﻿{
+  "name": "IISTupojjГород",
+  "modelName": "i-i-s-tupojj-город",
+  "className": "Город",
+  "nameSpace": "IIS.Tupojj",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "id",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ГородE",
+      "modelName": "i-i-s-tupojj-город",
+      "attrs": [
+        {
+          "name": "id",
+          "caption": "Id",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "name",
+          "caption": "Name",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ГородL",
+      "modelName": "i-i-s-tupojj-город",
+      "attrs": [
+        {
+          "name": "id",
+          "caption": "Id",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "name",
+          "caption": "Name",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

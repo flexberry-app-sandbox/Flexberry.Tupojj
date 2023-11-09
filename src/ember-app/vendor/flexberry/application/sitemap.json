@@ -1,0 +1,29 @@
+﻿{
+  "applicationCaption": "Tupojj",
+  "applicationTitle": "Tupojj",
+  "items": [
+    {
+      "link": null,
+      "menuName": "tupojj",
+      "caption": "Tupojj",
+      "title": "Tupojj",
+      "children": [
+        {
+          "link": "i-i-s-tupojj-город-l",
+          "menuName": null,
+          "caption": "Город",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-tupojj-здание-l",
+          "menuName": null,
+          "caption": "Здание",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

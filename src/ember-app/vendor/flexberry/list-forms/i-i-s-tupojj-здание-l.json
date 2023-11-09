@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-tupojj-здание-e",
+  "editForm": "i-i-s-tupojj-здание-e",
+  "external": false,
+  "caption": "Здание",
+  "name": "IISTupojjЗданиеL",
+  "className": "ЗданиеL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-tupojj-здание",
+      "modelProjection": "ЗданиеL"
+    }
+  ]
+}
